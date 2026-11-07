@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# raw UCI download (the 20% test split is committed as test_data.csv instead)
+data/
