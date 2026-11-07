@@ -1,0 +1,6 @@
+,cv_f1_macro,train_accuracy,tuning_and_fit_seconds
+Logistic Regression,0.9363,0.9251,5.7000
+Decision Tree,0.9222,0.9443,6.4000
+KNN,0.9362,1.0000,4.6000
+Naive Bayes,0.8577,0.8551,0.3000
+Support Vector Machine,0.9423,0.9417,10.4000

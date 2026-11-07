@@ -1,0 +1,131 @@
+{
+  "dataset": "UCI Dry Bean Dataset (id 602)",
+  "target_column": "Class",
+  "feature_names": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRatio",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "Roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "class_names": [
+    "Barbunya",
+    "Bombay",
+    "Cali",
+    "Dermason",
+    "Horoz",
+    "Seker",
+    "Sira"
+  ],
+  "random_state": 2026,
+  "test_size": 0.2,
+  "n_train": 10834,
+  "n_test": 2709,
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.14",
+  "models": {
+    "Logistic Regression": {
+      "file": "logistic_regression.joblib",
+      "best_params": {
+        "clf__C": 1
+      },
+      "cv_f1_macro": 0.9362730888267748,
+      "train_accuracy": 0.9250507661067011,
+      "tuning_and_fit_seconds": 5.7
+    },
+    "Decision Tree": {
+      "file": "decision_tree.joblib",
+      "best_params": {
+        "clf__criterion": "gini",
+        "clf__max_depth": 12,
+        "clf__min_samples_leaf": 10
+      },
+      "cv_f1_macro": 0.9222275945479632,
+      "train_accuracy": 0.944341886653129,
+      "tuning_and_fit_seconds": 6.4
+    },
+    "KNN": {
+      "file": "knn.joblib",
+      "best_params": {
+        "clf__n_neighbors": 9,
+        "clf__p": 2,
+        "clf__weights": "distance"
+      },
+      "cv_f1_macro": 0.9361952765425803,
+      "train_accuracy": 1.0,
+      "tuning_and_fit_seconds": 4.6
+    },
+    "Naive Bayes": {
+      "file": "naive_bayes.joblib",
+      "best_params": {
+        "clf__var_smoothing": 1e-11
+      },
+      "cv_f1_macro": 0.8577243651787777,
+      "train_accuracy": 0.855085840871331,
+      "tuning_and_fit_seconds": 0.3
+    },
+    "Support Vector Machine": {
+      "file": "svm.joblib",
+      "best_params": {
+        "clf__C": 10,
+        "clf__gamma": 0.1
+      },
+      "cv_f1_macro": 0.9423443588732165,
+      "train_accuracy": 0.941665128299797,
+      "tuning_and_fit_seconds": 10.4
+    }
+  },
+  "test_metrics_macro": {
+    "Logistic Regression": {
+      "Accuracy": 0.9250645994832042,
+      "AUC": 0.9947153674408291,
+      "Precision": 0.9370603842009018,
+      "Recall": 0.9372545520905063,
+      "F1": 0.9371190680159996,
+      "MCC": 0.9093991204187153
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9095607235142119,
+      "AUC": 0.981276713220491,
+      "Precision": 0.9235628583536621,
+      "Recall": 0.9216608222573112,
+      "F1": 0.922483519023105,
+      "MCC": 0.8906119544395407
+    },
+    "KNN": {
+      "Accuracy": 0.9228497600590624,
+      "AUC": 0.9882457421697877,
+      "Precision": 0.9373822348924884,
+      "Recall": 0.936436570632598,
+      "F1": 0.9368737984841885,
+      "MCC": 0.90669366609252
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8527131782945736,
+      "AUC": 0.9828427767493435,
+      "Precision": 0.8573547344624639,
+      "Recall": 0.8559128007632893,
+      "F1": 0.8557341724489855,
+      "MCC": 0.822193443335111
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.9280177187153932,
+      "AUC": 0.9938757732981971,
+      "Precision": 0.9407017179585735,
+      "Recall": 0.9396840334485922,
+      "F1": 0.9401569849063464,
+      "MCC": 0.9129265038766348
+    }
+  }
+}
