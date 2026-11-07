@@ -2,7 +2,7 @@
 
 **Course:** Machine Learning, M.Tech (AIML), BITS Pilani WILP  
 **Student:** `KAVITHA S` | **BITS ID:** `2026AJ05651`  
-**Live Streamlit app:** `<paste your https://....streamlit.app link here after deploying>`
+**Live Streamlit app:** https://drybean-2026aj05651.streamlit.app/
 
 ---
 
